@@ -5,6 +5,9 @@ The goal of this assignment is threefold:
 (ii) compare different cells such as vanilla RNN, LSTM and GRU 
 (iii) understand how attention networks overcome the limitations of vanilla seq2seq models
 
+Entire code can be found in the following Kaggle Notebook : https://www.kaggle.com/code/adityanandakishore/cs6910-a3-ipynb
+Wandb Report link : https://api.wandb.ai/links/berserank/sqi3bf5s
+
 ## Question 2- Buliding and Training Seq2Seq Model
 
 I have implemented the entire code in a Kaggle Notebook.Here is the link for the same
