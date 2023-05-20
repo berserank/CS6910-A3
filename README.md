@@ -20,10 +20,8 @@ For evaluation purposes, I have made a model.py file, that can help with the sam
 - trainIters : This function will train the model based on the given hyper-parameters. Setting Attention = False will not be necessary as it is the default value. This function gives out val accuracy as the output after training the entire model
 - infer : This function infers the built model over test data and stores the predictions in the given file(given log = True)
 
-
-'''
 To deal with different number of layers in encoder and decoder, I have initialised all the hidden states of decoder with last layer of the encoder only. 
-'''
+
 
 Hyper parameter Sweep was implemented in the kaggle notebook over the following hyper-parameters
 
