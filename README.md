@@ -10,7 +10,7 @@ Entire code can be found in the following Kaggle Notebook : https://www.kaggle.c
 Wandb Report link : https://api.wandb.ai/links/berserank/sqi3bf5s
 
 ## Dataset
-I have bulit the model using Aksharantar's Eng-Tamil Dataset. Data has been Pre-processed to account for variable length and unkwon characters in test data set. I have impleneted padding to account for the former and Loss was calculated over padding too. This won't affect the results as later seen in attention map. 
+I have bulit the model using Aksharantar's Eng-Tamil Dataset. Data has been Pre-processed to account for variable length and unknwon characters in test data set. I have impleneted padding to account for the former and Loss was calculated over padding too. This won't affect the results as later seen in attention map. 
 
 ## Question 2- Buliding and Training Seq2Seq Model
 
