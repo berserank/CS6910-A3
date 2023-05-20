@@ -5,7 +5,7 @@ The goal of this assignment is threefold:
 (ii) compare different cells such as vanilla RNN, LSTM and GRU 
 (iii) understand how attention networks overcome the limitations of vanilla seq2seq models
 
-##Question 2- Buliding and Training Seq2Seq Model
+## Question 2- Buliding and Training Seq2Seq Model
 
 I have implemented the entire code in a Kaggle Notebook.Here is the link for the same
 
@@ -31,7 +31,7 @@ Hyper parameter Sweep was implemented in the kaggle notebook over the following 
 - Bidirectional: True, False (Please note that "null" indicates "Bidirectional = True" too as it is the default value)
 
 Results and comments are attached in the wandb report : https://api.wandb.ai/links/berserank/sqi3bf5s
-##Question 4- Results on Test Data
+## Question 4- Results on Test Data
 
 The best model reported in the above sweep had the following hyperparameters:
 - Optimiser: Nadam
