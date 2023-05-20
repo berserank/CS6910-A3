@@ -50,3 +50,16 @@ The best model reported in the above sweep had the following hyperparameters:
 The accuracy reported on test set was __33.40%__
 
 Results and Comments are attached in the wandb report : https://api.wandb.ai/links/berserank/sqi3bf5s
+
+## Question 5- Buliding and Training the Seq2Seq with Attention Model
+
+The model was later trained by adding a Bahdanau attention layer to the basic sequence-to-sequence model.
+Code is available in the Kaggle notebook as mentioned.
+
+For the sake of evaluation, one can set the "Attention Flag = True" and train the model.py. Further code specifications are given below.
+
+I have performed a hyper parameter search again in a lesser space this time as results were satisfactory.
+
+
+
+
