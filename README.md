@@ -58,12 +58,13 @@ Results and Comments are attached in the wandb report : https://api.wandb.ai/lin
 ## Question 5- Buliding and Training the Seq2Seq with Attention Model
 
 The model was later trained by adding a Bahdanau attention layer to the basic sequence-to-sequence model.
-Code is available in the Kaggle notebook as mentioned.
+Code and Reults are available in the Kaggle notebook and Wandb Report respectively.
 
 For the sake of evaluation, one can set the "Attention Flag = True" and train the model.py. Further code specifications are given below.
 
 I have performed a hyper parameter search again in a lesser space this time as results were satisfactory.
 
+## Code Specifications
 
 
 
