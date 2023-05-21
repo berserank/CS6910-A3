@@ -18,7 +18,9 @@ I have implemented the entire code in a Kaggle Notebook.Here is the link for the
 
 https://www.kaggle.com/code/adityanandakishore/cs6910-a3-ipynb
 
-For evaluation purposes, I have made a model.py file, that can help with the same. model.py contains the following functions. Please note that I have implemented wandb only in Kaggle Notebook but not in model.py, you will be able to see the results, but won't be able to log it.
+For evaluation purposes, I have made a model.py file, that can help with the same. model.py contains the following functions. Please note that I have implemented wandb only in Kaggle Notebook but not in model.py, you will be able to see the results, but won't be able to log it. For logging the data, please follow the comments in the Kaggle Notebook.
+
+In case the code in model.py appears too crowded, I have provided comments in the Kaggle version of the code.
 
 - trainIters : This function will train the model based on the given hyper-parameters. Setting Attention = False will not be necessary as it is the default value. This function gives out val accuracy as the output after training the entire model
 - infer : This function infers the built model over test data and stores the predictions in the given file(given log = True)
@@ -68,7 +70,7 @@ Code and Reults are available in the Kaggle notebook and Wandb Report respective
 
 For the sake of evaluation, one can set the "Attention Flag = True" and train the model.py. Further code specifications are given below.
 
-I have performed a hyper parameter search again in a lesser space this time as results were satisfactory.
+I have performed a hyper parameter search again in a lesser space this time as results were satisfactory. The best model with attention reported an accuracy of 
 
 ## Code Specifications
 
