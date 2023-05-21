@@ -74,5 +74,24 @@ I have performed a hyper parameter search again in a lesser space this time as r
 
 ## Code Specifications
 
+Please use the following arguments to check the code. Long opts are used as given, but I had to choose different variables for short opts as I have implemented my train.py using `getopt.getopt`
 
+I set the default hyperparameters to the values that has given me the best validation accuracy with Attention.
+### Arguments 
+
+| Name | Default Value | Description |
+| :---: | :-------------: | :----------- |
+| `-e`, `--enc_embed` | 256 |  Encoder Embedding Size|
+| `-d`, `--dec_embed` | 256 |  Decoder Embedding Size|
+| `-k`, `--enc_layers` | 1 | Encoder Layers |
+| `-l`, `--dec_layers` | 1 | Decoder Layers |
+| `-h`, `--hidden` | 512 | Hidden Unit Dimensions |
+| `-c`, `--cell_type` | lstm | Choices = ['lstm', 'gru', 'rnn'] | 
+| `-g`, `--dropout` | 0.4 | Dropout | 
+| `-a`, `--atention` | 1 | Attention Flag Choices = [0 , 1] | 
+| `-p`, `--epochs` | 5 | Number of Epochs |
+| `-t`, `--teacher_forcing_ratio` | 0.7 | Teacher forcing ratio | 
+| `-b`, `--bidirectional` | 1 | Bidirectional Flag Choices = [0 , 1] | 
+
+Please use them to change the hyper-parameters while running the model.py. Incase you would like to change any other hyper-parameter please refer the Kaggle Notebook.
 
