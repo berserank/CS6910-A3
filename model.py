@@ -78,7 +78,7 @@ def sample_equidistant_points(data, epochs):
 
 file1 = open('tam_test.csv')
 file2 = open('tam_valid.csv')
-file3 = open('tam_valid.csv')
+file3 = open('tam_train.csv')
 
 
 csvreader1 = csv.reader(file1)
@@ -603,7 +603,7 @@ def trainIters(model, pairs, batch_size, n_iters, optimizer, tf, print_every=10,
         print_loss_total += loss
         plot_loss_total += loss
 
-        if count % 10 == 0:
+        if count % 800 == 0:
             val_input_tensor = []
             val_target_tensor = []
 
@@ -622,14 +622,14 @@ def trainIters(model, pairs, batch_size, n_iters, optimizer, tf, print_every=10,
             val_loss = criterion(val_out, val_target_tensor)
             val_loss_sampled = val_loss
        
-        if count % 10 == 0:
+        if count % 800 == 0:
             print_loss_avg = print_loss_total / 800
             print_loss_total = 0
             print('%s (%d %d%%) %.7f' % (timeSince(start, iter / n_iters),
                                          iter, iter / n_iters * 100, print_loss_avg))
                                       
 
-        if count % 10 == 0:
+        if count % 800 == 0:
             plot_loss_avg = plot_loss_total / 800
             plot_losses.append(plot_loss_avg.detach())
             plot_loss_total = 0
